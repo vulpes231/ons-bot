@@ -1,0 +1,16 @@
+{
+  "name": "ons-bot",
+  "module": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "2"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
